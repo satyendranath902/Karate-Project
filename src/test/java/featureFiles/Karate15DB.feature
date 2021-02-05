@@ -29,3 +29,5 @@ Feature:  karate db test suite15
     * def rowsAffected = db.deleteStatement("delete from tools where id=54")
     * print rowsAffected
     * assert rowsAffected >= 1
+
+    # Satyendra Git Hub Installation
