@@ -1,0 +1,22 @@
+<testsuite failures="0" name="featureFiles/Karate16WritingRespondsToFile.feature" skipped="0" tests="2" time="0.27185">
+  <testcase classname="featureFiles.Karate16WritingRespondsToFile" name="select stmt test case" time="0.263743">
+    <system-out>* def util = Java.type("misc.utils") ...................................... passed
+Given url "https://reqres.in/api/users?page=2" ............................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def res = get response .................................................. passed
+* print res ............................................................... passed
+* util.writeToFile("result21",res) ........................................ passed</system-out>
+  </testcase>
+  <testcase classname="featureFiles.Karate16WritingRespondsToFile" name="Reading result file" time="0.008108">
+    <system-out>* def util = Java.type("misc.utils") ...................................... passed
+Given url "https://reqres.in/api/users?page=2" ............................ passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def res = get response .................................................. passed
+* print res ............................................................... passed
+* util.writeToFile("result21",res) ........................................ passed
+* def data = read("classpath:result21") ................................... passed
+* print data .............................................................. passed</system-out>
+  </testcase>
+</testsuite>

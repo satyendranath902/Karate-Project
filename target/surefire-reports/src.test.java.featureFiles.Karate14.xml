@@ -1,0 +1,6 @@
+<testsuite failures="0" name="src/test/java/featureFiles/Karate14.feature" skipped="0" tests="1" time="0.030898">
+  <testcase classname="src.test.java.featureFiles.Karate14" name="static Method TC" time="0.030898">
+    <system-out>* def env2 = .............................................................. passed
+* print env2() ............................................................ passed</system-out>
+  </testcase>
+</testsuite>

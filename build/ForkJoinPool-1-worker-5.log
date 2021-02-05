@@ -1,0 +1,116 @@
+16:03:27.211 From karate-config file 
+16:03:27.383 [print] after insert
+16:03:27.399 after scenario inside config 
+16:03:27.399 From karate-config file 
+16:03:27.649 request:
+1 > POST https://www.w3schools.com/xml/tempconvert.asmx/CelsiusToFahrenheit
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 10
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.w3schools.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+Celsius=40
+
+16:03:28.102 response time in milliseconds: 451.22
+1 < 200
+1 < Cache-Control: private, max-age=0,public
+1 < Content-Type: text/xml; charset=utf-8
+1 < Date: Fri, 05 Feb 2021 10:25:17 GMT
+1 < Server: Microsoft-IIS/7.5
+1 < Vary: Accept-Encoding
+1 < X-AspNet-Version: 4.0.30319
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Powered-By: ASP.NET
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="https://www.w3schools.com/xml/">104</string>
+
+16:03:28.118 [print] {
+  "Cache-Control": [
+    "private, max-age=0,public"
+  ],
+  "Content-Type": [
+    "text/xml; charset=utf-8"
+  ],
+  "Date": [
+    "Fri, 05 Feb 2021 10:25:17 GMT"
+  ],
+  "Server": [
+    "Microsoft-IIS/7.5"
+  ],
+  "Vary": [
+    "Accept-Encoding"
+  ],
+  "X-AspNet-Version": [
+    "4.0.30319"
+  ],
+  "X-Frame-Options": [
+    "SAMEORIGIN"
+  ],
+  "X-Powered-By": [
+    "ASP.NET"
+  ]
+}
+
+16:03:28.118 [print] xml
+16:03:28.118 [print] <string xmlns="https://www.w3schools.com/xml/">104</string>
+
+16:03:28.149 [print] {
+  "__arg": null,
+  "baseUrl": "https://reqres.in",
+  "responseType": "xml",
+  "responseHeaders": {
+    "Cache-Control": [
+      "private, max-age=0,public"
+    ],
+    "Content-Type": [
+      "text/xml; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 05 Feb 2021 10:25:17 GMT"
+    ],
+    "Server": [
+      "Microsoft-IIS/7.5"
+    ],
+    "Vary": [
+      "Accept-Encoding"
+    ],
+    "X-AspNet-Version": [
+      "4.0.30319"
+    ],
+    "X-Frame-Options": [
+      "SAMEORIGIN"
+    ],
+    "X-Powered-By": [
+      "ASP.NET"
+    ]
+  },
+  "listUsers": "/api/users?page=2",
+  "responseTime": 451,
+  "response": {
+    "string": {
+      "_": "104",
+      "@": {
+        "xmlns": "https://www.w3schools.com/xml/"
+      }
+    }
+  },
+  "requestTimeStamp": 1612521207649,
+  "responseStatus": 200,
+  "__loop": -1,
+  "responseCookies": null
+}
+
+16:03:28.165 after scenario inside config 
+16:03:28.274 From karate-config file 
+16:03:28.290 request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:03:33.337 java.net.SocketTimeoutException: Read timed out, http call failed after 5047 milliseconds for URL: http://dummy.restapiexample.com/api/v1/employees
+16:03:33.337 http request failed: 
+java.net.SocketTimeoutException: Read timed out
+16:03:33.337 after scenario inside config 

@@ -1,0 +1,10 @@
+<testsuite failures="0" name="featureFiles/Karate07.feature" skipped="0" tests="1" time="0.00945">
+  <testcase classname="featureFiles.Karate07" name="Validate the data type of variable Test Case" time="0.00945">
+    <system-out>* def a = 10 .............................................................. passed
+* def b = "karate" ........................................................ passed
+* def c = true ............................................................ passed
+* match a == "#number" .................................................... passed
+* match b == "#string" .................................................... passed
+* match c == "#boolean" ................................................... passed</system-out>
+  </testcase>
+</testsuite>

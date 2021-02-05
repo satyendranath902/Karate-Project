@@ -1,0 +1,8 @@
+<testsuite failures="0" name="src/test/java/featureFiles/Karate06.feature" skipped="0" tests="1" time="0.014868">
+  <testcase classname="src.test.java.featureFiles.Karate06" name="Karate logical operator validation" time="0.014868">
+    <system-out>* def a = 10 .............................................................. passed
+* def b = 20 .............................................................. passed
+* assert a == 10 &amp;&amp; b == 20 ............................................... passed
+* print "after insert" .................................................... passed</system-out>
+  </testcase>
+</testsuite>
